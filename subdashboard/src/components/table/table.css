@@ -1,0 +1,204 @@
+/* .table-body {
+  width: 100%;
+  overflow-x: scroll;
+} */
+.veripay-table-holder .table-header {
+  background-color: var(--skyBlue);
+  /* height: 56px; */
+  /* width: fit-content; */
+  /* min-width: 100%; */
+  /* display: block; */
+  vertical-align: middle !important;
+  /* padding: 10px 0 !important; */
+}
+.veripay-table-holder table {
+  border-spacing: 0;
+  border-collapse: separate;
+}
+.veripay-table-holder .search-label {
+  padding-left: 20px;
+}
+.veripay-table-holder #search-bar-0-label {
+  display: none;
+}
+.veripay-table-holder th{
+  font-size: 12px !important;
+}
+.veripay-table-holder td{
+  font-size: 11px !important;
+}
+
+/* tbody tr td {
+  padding: 20px 10px !important;
+  font-weight: 400;
+  vertical-align: top;
+  height: 10px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #4f4f4f;
+  font-size: 14px;
+  line-height: 14px;
+  color: #4f4f4f;
+} */
+.veripay-table-holder .dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 12px;
+  color: #17517e;
+}
+
+.veripay-table-holder .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--white);
+  min-width: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 5px 16px;
+  z-index: 1;
+  left: 0;
+  top:0;
+  font-weight: normal;
+  font-size: 10px;
+  color: #4f4f4f;
+}
+
+.veripay-table-holder .dropdown:hover .dropdown-content {
+  display: block;
+}
+.veripay-table-holder .react-bootstrap-table-editing-cell {
+  /* height: 10px !important; */
+  /* padding: 0 !important; */
+  outline: none !important;
+  /* box-shadow: none; */
+  background-color: 'red' !important;
+}
+.veripay-table-holder .react-bootstrap-table-editing-cell:focus {
+  /* padding: 0 !important; */
+  outline: none !important;
+  box-shadow: none !important;
+  margin: 0;
+}
+.veripay-table-holder .table-download-holder{
+  position: relative;
+}
+.veripay-table-holder .table-download-options{
+  display: none;
+  position: absolute;
+  background-color: white !important;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  font-size: 10px;
+  color: #4F4F4F;
+  z-index: 50;
+  width:80px
+}
+.veripay-table-holder .table-download-holder:hover .table-download-options{
+  display: block;
+ 
+
+
+}
+.veripay-table-holder .download-option{
+  background-color: white;
+  font-size: 10px;
+  color: #4F4F4F;
+}
+.veripay-table-holder .table-search-download-holder{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+  width: -webkit-fill-available;
+  /* width: 100%; */
+}
+.veripay-table-holder .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color:var(--background) !important;
+}
+.veripay-table-holder .table {
+  --bs-table-striped-bg:none !important
+}
+.veripay-table-holder tbody, td, tfoot, th, thead, tr{
+  border-style: none;
+}
+.react-bootstrap-table-editing-cell:focus{
+  height:25px !important;
+}
+.react-bootstrap-table-cell .form-control{
+  height:25px !important;
+  width:70px;
+  font-size: 10px;
+  margin-left: '5px' !important;
+  background-color: transparent !important;
+}
+tbody, td, tfoot, th, thead, tr {
+  border-style: none !important;
+}
+.basic-scale-input{
+  background-color :transparent;
+}
+.next-btn{
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 12px;
+  margin:20px 10px;
+}
+.prev-btn{
+  background-color: var(--white);
+  color: var(--grey);
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin:20px 10px;
+  cursor: pointer;
+  font-size: 12px;
+  border:.5px solid var(--grey)
+}
+.table-nav-bottom{
+  position: absolute;
+}
+/* .react-bootstrap-table{
+  width:100%;
+  overflow-x: scroll;
+}
+
+.react-bootstrap-table th.sortable,.react-bootstrap-table th {
+  white-space: nowrap;
+  padding: 1.2rem 0.7rem;
+  width:fit-content;
+}  */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 790px) { 
+  .react-bootstrap-table th.sortable,.react-bootstrap-table th {
+    font-size: 0.7rem;
+  }
+  
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .react-bootstrap-table th.sortable,.react-bootstrap-table th {
+    font-size: 0.9rem;
+  }
+  
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .react-bootstrap-table th.sortable,.react-bootstrap-table th {
+    font-size: 1rem;
+  } 
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+  .react-bootstrap-table th.sortable,.react-bootstrap-table th {
+    font-size: 1rem;
+  } 
+}

@@ -1,0 +1,100 @@
+.staff-type-title {
+    color:#4F4F4F;
+    font-size:24px;
+    margin: 30px;
+}
+.staff-type-white-card {
+    background-color: white;
+    border-radius: 8px;
+}
+.staff-type-container{
+    background-color: white;
+    margin:20px 30px;
+    overflow-x: scroll;
+    position:relative;
+}
+.staffType-listing-title-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.staffType-listing-title {
+    color:#4F4F4F;
+    font-size: 18px;
+}
+.staff-type-btn{
+    background-color: #F2F9FF;
+    border:none;
+    padding:10px 15px;
+    color:#17517E;
+    font-size: 14px;
+
+}
+.staff-type-lisitng-empty-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:50px
+}
+.staff-type-lisitng-empty-title {
+   color:#BCBFC0;
+   font-size: 20px;
+}
+.table-blue-warn{
+    color:#2A70D9;
+    font-style:italic;
+    line-height: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.light-blue-btn{
+    color:#17517E;
+    background-color: #F2F9FF;
+    border-radius: 4px;
+
+}
+
+.blue-btn{
+    color:white;
+    background-color: #17517E;
+    border-radius: 4px;
+}
+.info-container {
+    background-color: #FEE9E9;
+    color:#DD5F5F;
+    align-items: center;
+    font-size: 13px;
+    border-radius:4px;
+    font-weight: 600;
+}
+.info-container-orange {
+    background-color: #FFF3CF;
+    color:#F2A84E;
+    align-items: center;
+    font-size: 13px;
+    border-radius:4px;
+    font-weight: 600;
+}
+.update-employee-btn {
+    background-color: #17517E;
+    margin-top: 10px;
+    color:white
+}
+.approval-detail-table, .approval-detail-table td{
+    border:1px solid #E6E6E6 !important;
+    border-collapse: collapse !important;
+}
+.approval-detail-table td{
+    padding:10px 20px ;
+    color:#4F4F4F
+}
+.approval-detail-table{
+   width:100%
+}
+.approval-detail-table-title {
+    width:30%;
+    font-size: 14px;
+    font-weight: 600;
+   
+}

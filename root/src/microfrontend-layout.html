@@ -1,0 +1,135 @@
+<single-spa-router>
+  <!--
+
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+
+  -->
+
+  <!-- Example layouts you might find helpful:
+
+  <nav>
+    <application name="@org/navbar"></application>
+  </nav>
+  <route path="settings">
+    <application name="@org/settings"></application>
+  </route>
+
+  -->
+
+  <style>
+    .root-side-bar {
+      overflow-x: hidden;
+      height: calc(100vh - 50px);
+      overflow-y: scroll;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      background-color: #2d2d2e;
+      /* display: none !important; */
+    }
+
+    .root-side-bar::-webkit-scrollbar,
+    .root-body::-webkit-scrollbar {
+      display: none;
+    }
+
+    .root-side-bar > div {
+      /* width: 20%; */
+      overflow-x: hidden;
+      min-height: 100%;
+      /* display: none !important; */
+    }
+
+    .root-body {
+      width: calc(100% - 18rem) !important;
+      height: calc(100vh - 50px);
+      overflow-y: scroll;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      background-color: #F8F8F8;
+    }
+
+    @media (max-width: 768px) {
+      .root-body {
+        width: 100% !important;
+      }
+
+      .root-side-bar {
+        display: none;
+        min-height: 100% !important;
+      }
+
+      .root-side-bar-show {
+        display: block !important;
+      }
+    }
+  </style>
+
+  <main>
+    <route default>
+      <application name="@Appmart/subauth"></application>
+    </route>
+    <route path="dashboard">
+      <div>
+        <div style="z-index: 2">
+          <application name="@Appmart/navbar"></application>
+        </div>
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            min-height: 100%;
+          "
+        >
+          <div class="root-side-bar">
+            <application
+              style="min-height: 100%"
+              name="@Appmart/sidebar"
+            ></application>
+          </div>
+          <div class="root-body">
+            <route default>
+              <application name="@Appmart/subdashboard"></application>
+            </route>
+            <route path="setup/hr/designation">
+              <application name="@Appmart/designation"></application>
+            </route>
+            <route path="setup/approval">
+              <application name="@Appmart/manageEmployee"></application>
+            </route>
+            <route path="setup/hr/manage-allowance">
+              <application name="@Appmart/designation"></application>
+            </route>
+            <route path="setup/hr/mda">
+              <application name="@Appmart/designation"></application>
+            </route>
+            <route path="setup/hr/deductions">
+              <application name="@Appmart/designation"></application>
+            </route>
+            <route path="setup/hr/deductions/name">
+              <application name="@Appmart/designation"></application>
+            </route>
+            <route path="setup/hr/manage-qualifications">
+              <application name="@Appmart/designation"></application>
+            </route>
+            <route path="setup/hr/manage-employee-types">
+              <application name="@Appmart/manageEmployee"></application>
+            </route>
+            <route path="setup/hr/manage-retirement-policy">
+              <application name="@Appmart/manageEmployee"></application>
+            </route>
+            <route path="setup/hr/create-sub-admin">
+              <application name="@Appmart/manageEmployee"></application>
+            </route>
+            <route path="setup/hr/manage-tax">
+              <application name="@Appmart/manageEmployee"></application>
+            </route>
+            <route path="operations">
+              <application name="@Appmart/manageEmployee"></application>
+            </route>
+          </div>
+        </div>
+      </div>
+    </route>
+  </main>
+</single-spa-router>

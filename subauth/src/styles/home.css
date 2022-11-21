@@ -1,0 +1,26 @@
+.dashbaord-body {
+  background-color: var(--background);
+  height: 100vh;
+  width: 100%;
+}
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--white);
+}
+.dashboard-black-area {
+  height: 100%;
+  width: 15%;
+  background-color: var(--lightGrey);
+}
+.dashboard-content-holder {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.dashboard-white-area {
+  width: 75%;
+  
+}

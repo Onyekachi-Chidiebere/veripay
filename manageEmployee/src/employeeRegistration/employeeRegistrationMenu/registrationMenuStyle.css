@@ -1,0 +1,121 @@
+.ul-nav {
+  overflow-x: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  
+}
+.ul-nav::-webkit-scrollbar {
+  display: none;
+}
+a.salary-structure-nave-item {
+  border-bottom: 2px solid var(--white);
+  width: 200px !important;
+  background-color: #F8F8F8;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: -5px;
+  color: var(--grey);
+  text-decoration: none;
+}
+a.salary-structure-nave-item:hover {
+  background-color: var(--white);
+  border-bottom: 2px solid var(--white);
+  text-decoration: none;
+}
+a.salary-structure-nave-item.current {
+  background-color: #009688;
+  color: var(--white) !important;
+  text-decoration: none;
+}
+a.salary-structure-nave-item.current h4 {
+ font-size: 14px;
+ font-weight: 500;
+}
+a.salary-structure-nave-item h4 {
+  font-size: 14px;
+ font-weight: 500;
+}
+a.salary-structure-nave-item.current h5 {
+  font-size: 12px;
+  font-weight: 300;
+}
+a.salary-structure-nave-item h5 {
+  font-size: 12px;
+  font-weight: 300;
+}
+/* .salary-structure-nave-item a {
+  color: var(--grey) !important;
+  text-decoration: none;
+} */
+
+.salary-regime-menu {
+  border-bottom: 0.5px solid var(--lightGrey);
+}
+.salary-regime-title {
+  font-size: 20px;
+  color: var(--grey);
+}
+
+.regime-search-holder {
+  background-color: var(--background);
+  padding: 10px;
+  border-radius: 3px;
+}
+.regime-search-text {
+  border: none;
+  outline: none;
+  background-color: var(--background);
+  margin-left: 10px;
+  width: 250px;
+}
+.regime-download-btn-text {
+  color: var(--blue);
+  margin-left: 10px;
+  font-size: 14px;
+}
+.structure-warn-container {
+  background-color: #fee9e9;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+.structure-warn-container p {
+  color: #dd5f5f;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 20px 10px;
+}
+.f-menu{
+  font-size:1rem
+}
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... } */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 790px) { 
+  .f-menu{
+    font-size:1rem
+  }
+  
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  .f-menu{
+    font-size:1rem
+  }
+  
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .f-menu{
+    font-size:1rem
+  }  
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+  .f-menu{
+    font-size:1rem
+  }  
+}

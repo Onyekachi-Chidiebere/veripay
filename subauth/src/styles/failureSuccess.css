@@ -1,0 +1,10 @@
+.failure-success-status {
+  color: var(--grey);
+  font-size: 24px;
+}
+.failure-success-text {
+  font-size: 14px;
+  color: var(--grey);
+  width: 80%;
+  text-align: center;
+}

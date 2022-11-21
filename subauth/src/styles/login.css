@@ -1,0 +1,116 @@
+.login-body {
+  font-size: 14px;
+  background-color: var(--background);
+  height: 100vh;
+  display: flex;
+}
+.login-first-part {
+  width: 50%;
+  background-color: var(--background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-image {
+  width: 100%;
+  height: auto;
+}
+.login-second-part {
+  width: 100%;
+  background-color: var(--white);
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.login-logo{
+  height: 60px;
+  width: 60px;
+}
+
+.login-logo-container {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+.validate-btn {
+  background-color: var(--blue);
+  padding: 20px ;
+  border: none;
+  border-radius: 4px;
+  color:var(--white);
+  font-weight: 600;
+}
+.login-logo-label {
+  color: var(--black);
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px;
+  text-align: center;
+}
+.login-register-label {
+  color: var(--grey);
+  font-size: 14px;
+  text-align: center;
+}
+.login-register-link {
+  color: var(--blue);
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+.login-text {
+  font-size: 24px;
+  color: var(--grey);
+  margin-top: 100px;
+}
+.login-detail-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  /* width: 100%; */
+}
+.login-title {
+  font-size: 14px;
+  color: var(--grey);
+  margin-top: 20px;
+  text-align: center;
+}
+.login-input {
+  width: 100%;
+  height: 60px;
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  border: 1px solid var(--lightGrey);
+  outline: none;
+}
+.login-btn {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  margin: 40px auto;
+  justify-content: center;
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+  color: var(--white);
+  font-size: 18px;
+  font-weight: bold;
+}
+.login-footer {
+  color: var(--grey);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .login-first-part {
+    display: none !important;
+  }
+}

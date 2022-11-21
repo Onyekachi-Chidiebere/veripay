@@ -1,0 +1,68 @@
+.otp-background {
+  left:0;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 999;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.otp-container {
+  /* min-width: 40%; */
+  /* min-height: 70%; */
+  height: 438px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: 4px;
+  align-items: center;
+  justify-content: space-evenly;
+  /* padding: 2% 0; */
+}
+
+.otp-enter {
+  margin-top: 50px;
+  font-family: Mulish;
+  font-size: 24px;
+  color: var(--grey);
+}
+.otp-code-sent {
+  font-family: Mulish;
+  font-size: 14px;
+  color: var(--grey);
+  text-align: center;
+}
+.otp-btn {
+  color: var(--white);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  font-size: 18px;
+  background: var(--blue);
+  border-radius: 5px;
+  width: 90%;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+}
+.otp-not-code {
+  font-family: Mulish;
+  font-size: 16px;
+  text-align: center;
+  color: var(--lightGrey);
+}
+.otp-resend {
+  font-family: Mulish;
+  font-size: 18px;
+  text-align: center;
+  color: #49b6d6;
+  cursor: pointer;
+}
+.otp-timer {
+  color: var(--grey);
+  font-size: 16px;
+}

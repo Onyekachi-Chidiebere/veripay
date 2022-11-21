@@ -1,0 +1,52 @@
+.register-employee-title {
+  color: #4f4f4f;
+}
+.register-employee-holder {
+  border-radius: 10px;
+  border: 0.5px solid #e6e6e6;
+}
+
+.employee-complete-background {
+  margin: 40px;
+  background: #f8f8f8;
+  border: 0.5px solid #e6e6e6;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.employee-complete-title {
+  color: #4f4f4f;
+  font-size: 48px;
+  text-align: center;
+  margin: 40px;
+}
+.employee-complete-text {
+  color: #4f4f4f;
+  font-size: 16px;
+  text-align: center;
+  margin: 40px;
+}
+.employee-complete-background button {
+  background: #17517e;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.employee-footer-proceed-btn {
+  color: white;
+  background: #17517e;
+  margin-bottom: 10px;
+  padding: 18px 41px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.employee-footer-prev-btn {
+  color: #17517e;
+  background: #f2f9ff;
+  margin-bottom: 10px;
+  padding: 18px 41px;
+  margin-right: 26px;
+  font-size: 18px;
+  font-weight: 700;
+}

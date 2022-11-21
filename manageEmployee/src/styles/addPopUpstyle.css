@@ -1,0 +1,52 @@
+.add-staffType-background{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;   
+    display: flex;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-staff-type-container{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-staff-type-title-holder{
+    background-color: #F2F9FF;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px  5px  0  0;
+    margin-bottom: 20px;
+}
+
+.add-staff-type-title-holder-title{
+    color:#17517E;
+    font-size: 24px;
+    padding:20px;
+}
+.add-staffType-close-btn{
+    position:absolute;
+    right: 20px;
+    top: 25px;
+    cursor: pointer;
+}
+.add-staffType-submit-btn{
+    width:94%;
+    margin: 20px auto;
+    background-color:#17517E;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:4px;
+    cursor: pointer;
+    margin-top:20px;
+}

@@ -1,0 +1,90 @@
+.select-service-header {
+  width: 100%;
+  background-color: var(--lightGrey);
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.service-title {
+  width: 95%;
+}
+.select-service-item-holder {
+  background-color: var(--white);
+  box-shadow: 0px 8px 20px rgba(209, 213, 223, 0.2);
+  border-radius: 6px;
+  padding-left: 8%;
+  border-left: 6px solid red;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 37px;
+  margin: 20px;
+}
+.select-service-item-holder p {
+  display: flex;
+  margin-left: 10px;
+  align-self: center;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 20px;
+}
+.service-setup-btn {
+  background-color: var(--blue) !important;
+  width: 90%;
+  height: 50px;
+  color: var(--white);
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.service-setup-btn button {
+  color: var(--white);
+}
+.service-setup-btn:hover {
+  color: var(--white);
+}
+.select-service-holder {
+  margin-bottom: 20px;
+  border-bottom: none !important;
+  width: 100%;
+}
+.select-service-btn {
+  width:100%;
+  background-color: var(--white) !important;
+  border: 0.5px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 10px !important;
+  outline: none !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px;
+}
+.select-service-btn span{
+  font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+.select-service-btn:focus {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05) !important;
+  border-color: #eeeeee !important;
+}
+.select-service-btn:not(.collapsed) {
+  color: var(--black) !important;
+}
+.select-service-body {
+  background: #fcfcfc;
+  border: 0.5px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-top: -8px;
+}
+.select-service-body .btn {
+  color: #2a70d9 !important;
+  font-size: 16px;
+}
+.service-disabled-button {
+  background-color: var(--skyBlue) !important;
+  cursor:not-allowed !important;
+}

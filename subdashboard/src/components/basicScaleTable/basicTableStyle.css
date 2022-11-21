@@ -1,0 +1,18 @@
+.basic-table-body {
+    width:100%;
+    overflow-x: scroll
+};
+.basic-table-body table thead tr th{
+    font-size: 10px !important;
+}
+ .table-header{
+     font-weight: 500;
+     font-size: 12px;
+     padding-left: 10px;
+     background-color: var(--skyBlue);
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ tr td{
+     position:relative
+ }

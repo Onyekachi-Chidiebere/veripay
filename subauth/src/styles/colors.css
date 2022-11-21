@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,500;1,200&display=swap');
+:root {
+  --background: #f8f8f8;
+  --white: #ffffff;
+  --lineBlue: #92abbf;
+  --lightGrey: #d9d9d9;
+  --lighterGrey: #d1d5df;
+  --skyBlue: #eeeeee;
+  --grey: #6c6c64;
+  --black: #000000;
+  --darkGrey: #696964;
+  --blue: #17517e;
+  --brown: #2d2d2e;
+  --lightBlue: #e2f2ff;
+  --lightBrown: #474747;
+  --textBlack: #4f4f4f;
+  --placeHolder: #b4b4b4;
+}
+html {
+  height: 100%;
+}
+body {
+  overflow: hidden;
+  font-family: 'Mulish';
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::placeholder {
+  color: var(--placeHolder);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: var(--placeHolder);
+}
+
+::-ms-input-placeholder {
+  color: var(--placeHolder);
+}
+input,
+select {
+  color: var(--grey);
+}
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.mb-n5 {
+  margin-bottom: -4px;
+}
+.btn-primary {
+  background-color: var(--blue) !important;
+  border-color: var(--blue) !important;
+}
+.bottom-5 {
+  bottom: 10px;
+}
+#nprogress .bar {
+  background: var(--blue) !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px var(--blue), 0 0 5px var(--blue) !important;
+}
+
+#nprogress .spinner-icon {
+  display: none !important;
+}
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.row>* {
+  padding-right:0 !important ;
+  padding-left:0 !important ;
+}
+.swal-confirm{
+  background-color: var(--blue) !important;
+  padding: 10px 40px !important 
+}

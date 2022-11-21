@@ -1,0 +1,33 @@
+.delete-dialog-background{
+    background-color: var(--transparent); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    z-index: 100;
+}
+.delete-container{
+    background-color: var(--white);
+    padding:20px;
+    border-radius: 10px;
+}
+.delete-close-icon{
+    display: flex;
+    justify-content: flex-end;
+}
+.delete-input-holder{
+    display: flex;
+    justify-content: space-between;
+}
+.delete-input-holder button{
+    padding:5px;
+    border-radius: 4px;
+}
+.delete-input-holder input{
+    padding:5px;
+    border-radius: 4px;
+}
